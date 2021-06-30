@@ -1,0 +1,36 @@
+@media (max-width:768px) {
+  .header-container img {
+    width: 50%;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .header-text {
+    justify-content: center;
+    align-items: center;
+  }
+  .solutions-container {
+    grid-template-columns: repeat(2,1fr);
+  }
+ .copy-grid {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+  .flickr {
+    height: 2rem;
+  }
+}
+@media (max-width:600px) {
+  .banner {
+    font-size: 0.6rem;
+  }
+  .solutions-container,.works-container,.testimonials-container,.footer-grid {
+    grid-template-columns: 1fr
+  }
+}
